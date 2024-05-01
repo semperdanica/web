@@ -14,6 +14,8 @@
     group: ${{ github.ref }}-${{ github.workflow }}
     cancel-in-progress: true
   
+  permissions: {}
+  
   jobs:
     megalinter:
       name: MegaLinter
@@ -40,6 +42,8 @@
             # https://megalinter.io/configuration/
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
             ADDITIONAL_EXCLUDED_DIRECTORIES: .github
+            # disable cspell
+            DISABLE_LINTERS: "SPELL_CSPELL"
           # Upload MegaLinter artifacts
         - name: Archive production artifacts
           if: success() || failure()
