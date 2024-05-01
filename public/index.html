@@ -1,12 +1,52 @@
 <!DOCTYPE html>
-<html lang=”en”>
+<html lang="en">
 <head>
-<title>Semper Danica</title>
-<link rel="stylesheet" href="style.css">
+  <title>Semper Danica</title>
+  <style>
+    body {
+      background: linear-gradient(to bottom, blue, black);
+    }
+    .center {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    .social-icons {
+      display: flex;
+      gap: 60px;
+    }
+    .social-icons a {
+      display: inline-block;
+      width: 24px;
+      height: 24px;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+    .facebook {
+      background-image: url('img/facebook-icon.svg');
+    }
+    .youtube {
+      background-image: url('img/youtube-icon.svg');
+    }
+    .discord {
+      background-image: url('img/discord-icon.svg');
+    }
+    .instagram {
+      background-image: url('img/instagram-icon.svg');
+    }
+  </style>
 </head>
 <body>
-<div class="center">
-  <img width="400" src="img/semperdanica-logo-med-ulv-hvid.png">
-</div>
+  <div class="center">
+    <img width="400" src="img/semperdanica-logo-med-ulv-hvid.png">
+    <div class="social-icons">
+      <a href="https://www.facebook.com/Semperdanica" class="facebook"></a>
+      <a href="https://www.youtube.com/@semperdanica6500" class="youtube"></a>
+      <a href="https://discord.gg/cyKaDdUE" class="discord"></a>
+      <a href="https://www.instagram.com/semperdanica" class="instagram"></a>
+    </div>
+  </div>
 </body>
 </html>
