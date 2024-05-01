@@ -31,6 +31,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: HTML/CSS/JS Minifier
+        uses: devatherock/minify-js@v3.1.0
+        with:
+          directory: 'public'
+          add_suffix: false
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
