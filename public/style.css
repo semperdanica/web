@@ -42,3 +42,14 @@ html, body {
 .instagram {
   background-image: url('img/instagram-icon.svg');
 }
+
+.responsive-image {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (min-width: 400px) {
+  .responsive-image {
+    width: 400px;
+  }
+}
