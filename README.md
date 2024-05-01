@@ -4,7 +4,7 @@
 
 Currently, the web pages are hosted at [https://semperdanica.github.io/web/](https://semperdanica.github.io/web/).
 
-Once the pages are ready, they will be linked directly to [www.semperdanica.dk](www.semperdanica.dk).
+Once the pages are ready, they will be linked directly to [semperdanica.dk](semperdanica.dk).
 
 ## Contribute
 
