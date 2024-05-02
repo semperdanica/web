@@ -36,6 +36,13 @@ jobs:
         with:
           directory: 'public'
           add_suffix: false
+      - name: generate-sitemap
+        uses: cicirello/generate-sitemap@v1.10.0
+        with:
+          path-to-root: 'public'
+          base-url-path: 'https://www.semperdanica.dk'
+          include-html: true
+          include-pdf: true
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
