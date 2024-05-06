@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "monosans.djlint",
+        "HTMLHint.vscode-htmlhint",
+        "AquaSecurityOfficial.trivy-vulnerability-scanner",
+        "Bridgecrew.checkov",
+        "stylelint.vscode-stylelint"
+    ]
+}
