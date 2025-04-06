@@ -51,7 +51,7 @@ jobs:
           include-pdf: true
       - name: add sitemap to robots.txt
         run: |
-          echo "Sitemap: ${{ steps.pages.outputs.html_url }}/sitemap.xml" | sed -E "s#(https:|[^/])//#\1/#g" >> public/robots.txt
+          echo "Sitemap: ${{ steps.pages.outputs.html_url }}/sitemap.xml" | sed -E 's#([^:])/+#\1/#g' >> public/robots.txt
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
