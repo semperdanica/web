@@ -43,7 +43,7 @@ jobs:
           directory: 'public'
           add_suffix: false
       - name: generate-sitemap
-        uses: cicirello/generate-sitemap@v1.10.1
+        uses: cicirello/generate-sitemap@v1.10.2
         with:
           path-to-root: 'public'
           base-url-path: ${{ steps.pages.outputs.html_url }}
