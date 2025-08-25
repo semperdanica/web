@@ -36,7 +36,7 @@ jobs:
           html_url=$(gh api "repos/${GITHUB_REPOSITORY}/pages" --jq '.html_url')
           echo "html_url=${html_url}" >> $GITHUB_OUTPUT
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: HTML/CSS/JS Minifier
         uses: devatherock/minify-js@v3.1.0
         with:
