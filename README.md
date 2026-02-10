@@ -29,6 +29,6 @@ Create a Pull Request to contribute your changes. Here are the steps:
 7. Go to the original repository page and click on the "New Pull Request" button.
 8. Select your forked repository and the branch with your changes.
 9. Add a descriptive title and comment explaining your changes.
-10. Optionally, you can ping @Klintrup on Discord to notify them about your contribution.
+10. Optionally, you can ping @Klintrup or @Mushizo on Discord to notify them about your contribution.
 
 Thank you for your contribution!
