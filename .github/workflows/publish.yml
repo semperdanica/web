@@ -53,7 +53,7 @@ jobs:
         run: |
           echo "Sitemap: ${{ steps.pages.outputs.html_url }}/sitemap.xml" | sed -E 's#([^:])/+#\1/#g' >> public/robots.txt
       - name: Setup Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
